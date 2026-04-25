@@ -1,0 +1,13 @@
+{
+  "name": "synapse-link",
+  "version": "1.0.0",
+  "description": "Expand wikilinks in prompts via `nt` to inject context from Logseq",
+  "keywords": ["pi-package", "pi-extension", "wikilinks", "logseq", "context", "pkm", "second-brain"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["synapse-link.ts"]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  }
+}
