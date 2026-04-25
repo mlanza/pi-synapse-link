@@ -1,6 +1,6 @@
 # π Synapse Link
 
-A `pi` extension that expands wikilinks in your prompts into second-brain context from Logseq.
+A [pi](https://pi.dev) extension that expands wikilinks in your prompts into second-brain context from Logseq.
 
 <p align="center">
   <img src="./images/logo.png" style="width: 300px; max-width: 100%;" />
@@ -25,19 +25,14 @@ Your knowledge, skills, instructions, etc. are automatically injected into conve
 
 ## Getting Started
 
-Install:
+Ensure these prerequisites are configured and work as intended:
 
-- [pi](https://github.com/mariozechner/pi-coding-agent)
 - [Logseq](https://github.com/logseq/logseq)
-- [nt](https://github.com/mlanza/nt) - Logseq CLI tool (must be installed and in PATH)
+- [nt](https://github.com/mlanza/nt)
 
-Ensure:
+For `nt` to work Logseq must be open and the api enabled.
 
-* `nt` is working from the command line
-* Logseq is has pages of useful context for agents
-* Logseq is open and the api enabled
-
-Install the extension:
+Now the extension:
 
 ```bash
 pi install https://github.com/mlanza/pi-synapse-link
@@ -45,13 +40,13 @@ pi install https://github.com/mlanza/pi-synapse-link
 
 ## Usage
 
-When wikilinks are keyed into your π prompts
+Key wikilinks into your π prompts
 
 ```
 The job is [[Coding]] a Sokoban game using [[Atomic]].
 ```
 
-they get expanded and enriched with your Logseq content.  This can be skills, instructions — anything at all.
+and they get expanded and enriched with your Logseq content.  This can be skills, instructions — anything at all.
 
 Since this only happens with wikilinks, omit them to interact with π as usual.
 
