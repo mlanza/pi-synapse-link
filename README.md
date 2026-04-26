@@ -42,7 +42,7 @@ pi install https://github.com/mlanza/pi-synapse-link
 
 Key wikilinks into your π prompts
 
-```
+```md
 The job is [[Coding]] a Sokoban game using [[Atomic]].
 ```
 
